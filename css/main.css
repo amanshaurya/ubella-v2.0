@@ -1,100 +1,6 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Vidaloka");
-
-/**
-*** Table Of Contents
-**/
-
-
-/*
-** Template colors
-*
-
-Accent Colors:
-1: #e41779
-2: #d300e0
-3: #7900e0
-4: #56d7fe
-
-Light section (.ls) colors:
-Text color in light section: #989898
-Background color for light section and font color in dark section: #ffffff
-Color for headings in light section and for background in dark section (.ds): #1a1a1a
-Background color for light muted section (grey - .ls.ms): #f2f2f2
-Background color for dark muted section (.ds.ms): #252525
-Border colors for elements in light section (and .bordered elements): #e1e1e1, rgba(0, 0, 0, 0.1)
-Background color for elements in light section (.hero-bg): #f5f5f5
-
-Dark section (.ds) colors: 
-Text color in dark section: #9a9a9a
-Border colors for elements in dark section: #1a1a1a
-Background color for elements in dark section (.hero-bg): rgba(255, 255, 255, 0.05)
-
-Color section (.cs) colors: 
-Background color for elements in color section: rgba(255, 255, 255, 0.1)
-Border color for elements in color section: rgba(255, 255, 255, 0.15)
-
-
-1. Common tags styles
-2. Styled lists
-3. Overrides for default Bootstrap components
-4. jQuery plugins styles
-  - owl
-  - flexslider
-  - photoswipe
-  - piechart
-  - timetable
-  - totop
-  - countdown
-5. Bootstrap Addons helpers styles for sections and elements
-  - horizontal
-  - vertical
-  - sections
-  - media_items
-  - buttons
-6. Light background sections (.ls) styles
-7. Dark background sections (.ds) styles
-8. Color background sections (.cs) styles
-9. Bootstrap Addons utility styles
-  - layout
-  - colors
-  - spacing
-10. Shortcodes styles
-  - icon-box
-  - special-heading
-  - number-card
-  - price_table
-  - quote-item
-  - items-masonry
-11. Widgets styles
-  - search_mailchimp
-  - nav_cat_arch_meta_pages
-  - calendar
-  - rss
-  - tag_cloud
-  - flickr
-  - instagram
-  - access_press
-  - twitter
-  - post_slider
-  - post_tabs
-  - post_2cols
-12. Social icons styles
-13. WordPress styles
-14. Menu styles
-15. Header styles
-16. Side header styles
-17. Intro section styles
-18. Common sub-pages styles
-19. Template specific sections styles
-*/
-
-
-/*
-** General Styles for HTML tags
-*/
-
 html {
     height: 100%;
     overflow: visible;
@@ -17616,10 +17522,23 @@ widget_recent_entries
 a[class*='fa-']:before {
     display: inline-block;
     font-family: "FontAwesome", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 1;
     padding-left: 2px;
     width: 1em;
+}
+
+a[class*='fa-'] {
+    color: #fff !important;
+    padding: 25px;
+    border: #fff solid 2px;
+    border-radius: 50%;
+}
+
+a[class*='fa-']:hover {
+    color: #ff0084 !important;
+    border: #ff0084 solid 2px;
+    border-radius: 50%;
 }
 
 a.fa {
@@ -22443,7 +22362,7 @@ body.active-side-header.slide-right .page_header_side {
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        white-space: nowrap;
+        white-space: wrap;
     }
 }
 
@@ -25031,13 +24950,14 @@ nav ul li a:hover {
 }
 
 .menu-icon {
-    filter: invert(100%);
     flex-basis: 10%;
     display: none;
 }
 
 .menu-icon i {
-    font-size: 20px;
+    font-size: 40px;
+    z-index: 99999;
+    color: #fff;
 }
 
 @media only screen and (max-width: 700px) {
@@ -25045,7 +24965,7 @@ nav ul li a:hover {
         width: 100%;
         position: absolute;
         background-color: black;
-        top: 75px;
+        top: 95px;
         right: 0;
         z-index: 2;
     }
@@ -25065,9 +24985,25 @@ nav ul li a:hover {
         display: block;
         pointer-events: visibleFill;
         cursor: pointer;
+        position: absolute;
+        top: 42px;
+        right: 25px;
     }
     #menuList {
         overflow: hidden;
         transition: 0.5s;
     }
+}
+
+.bottom_soc a {
+    color: #fff !important;
+    padding: 20px;
+    border: #fff solid 2px;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
+.bottom_soc a:hover {
+    border: #ff0084 solid 2px;
+    color: #ff0084;
 }
