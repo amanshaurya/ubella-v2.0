@@ -25007,3 +25007,27 @@ nav ul li a:hover {
     border: #ff0084 solid 2px;
     color: #ff0084;
 }
+
+.fw-theme-signature {
+    position: relative;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.fw-signature-left-part .section_header {
+    text-transform: uppercase;
+    letter-spacing: 0.34em;
+    color: #e41779;
+    font-size: 16px;
+    font-family: "Vidaloka", serif;
+    margin-bottom: 0;
+}
+
+.fw-signature-left-part .desc {
+    text-transform: uppercase;
+    letter-spacing: 0.34em;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Vidaloka", serif;
+}
