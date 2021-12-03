@@ -12026,9 +12026,10 @@ section.page_map {
 .ds textarea,
 .ds select,
 .ds .form-control {
-    background-color: #fff;
-    border: none;
+    background-color: transparent;
+    border: #ffffff1a solid 2px;
     border-radius: 5px;
+    color: #fff;
     font-family: "Vidaloka", serif;
     font-size: 12px;
     letter-spacing: 5px;
@@ -12044,21 +12045,30 @@ section.page_map {
 }
 
 .ds .form-control:-moz-placeholder {
-    color: #252525;
+    color: #fff;
     opacity: 1;
 }
 
+.form-group i {
+    position: absolute;
+    position: absolute;
+    top: 22px;
+    color: deeppink;
+    left: 10px;
+    font-size: 10px;
+}
+
 .ds .form-control::-moz-placeholder {
-    color: #252525;
+    color: #fff;
     opacity: 1;
 }
 
 .ds .form-control:-ms-input-placeholder {
-    color: #252525;
+    color: #fff;
 }
 
 .ds .form-control::-webkit-input-placeholder {
-    color: #252525;
+    color: #fff;
 }
 
 .ds .form-control:focus:-moz-placeholder {
