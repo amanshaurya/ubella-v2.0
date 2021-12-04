@@ -17532,7 +17532,7 @@ widget_recent_entries
 a[class*='fa-']:before {
     display: inline-block;
     font-family: "FontAwesome", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 1;
     padding-left: 2px;
     width: 1em;
@@ -22369,10 +22369,10 @@ body.active-side-header.slide-right .page_header_side {
 @media (max-width: 768px) {
     .page_slider .soc-buttons {
         bottom: 60px;
-        left: 50%;
+        left: 40%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        white-space: wrap;
+        display: flex;
     }
 }
 
