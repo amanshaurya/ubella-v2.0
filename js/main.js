@@ -1509,12 +1509,12 @@
             if ($flickr.length) {
                 if (!($flickr.hasClass('flickr_loaded'))) {
                     $flickr.jflickrfeed({
-                        flickrbase: "http://api.flickr.com/services/feeds/",
+                        flickrbase: "",
                         limit: 6,
                         qstrings: {
-                            id: "131791558@N04"
+                            id: ""
                         },
-                        itemTemplate: '<a href="{{image_b}}" class="photoswipe-link"><li><img alt="{{title}}" src="{{image_m}}" /></li></a>'
+                        itemTemplate: ''
                             //complete
                     }, function(data) {
                         initPhotoSwipe();
@@ -1526,7 +1526,7 @@
         // Instagram widget
         if (jQuery().spectragram) {
             var Spectra = {
-                instaToken: '3905738328.5104743.42b91d10580042e3aeeab90c926666a4',
+                instaToken: '',
 
                 init: function() {
                     jQuery.fn.spectragram.accessData = {
@@ -1541,7 +1541,7 @@
                         }
                         $this.spectragram('getUserFeed', {
                             max: 6,
-                            wrapEachWith: '<div class="photo" />'
+                            wrapEachWith: ''
                         });
                     });
 

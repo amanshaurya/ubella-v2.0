@@ -24923,7 +24923,7 @@ img.absolute_image {
     width: 100%;
     background-color: black;
     transition: 0.5s;
-    z-index: 9999999;
+    z-index: 999;
 }
 
 .sticky::after {
