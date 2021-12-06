@@ -3545,7 +3545,7 @@ a.pswp__share--download:hover {
     opacity: 0.7;
     overflow: hidden;
     position: fixed;
-    right: 40%;
+    right: 45%;
     text-decoration: none;
     width: 60px;
     z-index: 1000;
@@ -22098,6 +22098,9 @@ body.active-side-header.slide-right .page_header_side {
     .page_header_side .header_bottom_part {
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    #toTop {
+        right: 40%;
     }
 }
 
