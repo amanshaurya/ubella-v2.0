@@ -1416,11 +1416,32 @@ input[type="radio"]:disabled+label:before {
     margin-bottom: 0;
 }
 
+.button-5 {
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F4F200;
+    background-image: #F4F200;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%);
+    background-image: -webkit-linear-gradient(top, #fff 0%, #F4F200 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #F4F200 100%);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
 
 /* bootstrap buttons */
 
 .btn {
-    border-radius: 0;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 400ms ease-in-out;
+    transition: background 400ms ease-in-out;
+    border-radius: 5px;
+    color: #fff;
     font-size: 12px;
     font-weight: 700;
     font-weight: 500;
@@ -1428,7 +1449,21 @@ input[type="radio"]:disabled+label:before {
     line-height: 1.6em;
     margin-bottom: 4px;
     padding: 20px 42px;
+    letter-spacing: 4px;
+    min-width: 260px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-transform: uppercase;
+    background-image: -moz-linear-gradient(90deg, rgba(228, 23, 121, 1) 0%, rgba(228, 23, 121, 1) 35%, rgba(228, 23, 121, 1) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgba(228, 23, 121, 1) 0%, rgba(228, 23, 121, 1) 35%, rgba(228, 23, 121, 1) 100%);
+    background-image: linear-gradient(90deg, rgba(228, 23, 121, 1) 0%, rgba(228, 23, 121, 1) 35%, rgba(228, 23, 121, 1) 100%);
+}
+
+.btn:hover {
+    background-position: -700%;
+    transition: background 400ms ease-in-out;
+    background-color: white;
+    color: black;
 }
 
 .btn.round,
