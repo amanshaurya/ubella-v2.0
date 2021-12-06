@@ -15069,7 +15069,7 @@ span.muted-bg {
     content: "";
     left: 0;
     margin-top: -2px;
-    -webkit-mask: url("file:///A:/ubella%20v2.0/images/mask/mask-bottom-add-alt.png") top left no-repeat;
+    -webkit-mask: url("../images/mask/mask-bottom-add-alt.png") top left no-repeat;
     -webkit-mask-size: cover !important;
     padding-bottom: 5.208%;
     position: absolute;
