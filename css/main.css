@@ -22245,11 +22245,12 @@ body.active-side-header.slide-right .page_header_side {
     opacity: 0.8;
 }
 
-@media (min-width: 1300px) {
+
+/* @media (min-width: 1300px) {
     .page_slider.video-bg {
         background-image: none !important;
     }
-}
+} */
 
 @media (max-width: 1200px) {
     .page_slider.video-bg .s-overlay.ds:before {
