@@ -839,7 +839,7 @@ textarea.form-control {
 
 .form-group .btn-submit i.fa {
     color: #fff;
-    margin-left: 4px;
+    margin: 4px 0 0 14px;
 }
 
 .form-group+.form-group {
@@ -21642,7 +21642,7 @@ body.active-side-header.slide-right .page_header_side {
     letter-spacing: 2px;
     position: absolute;
     text-transform: uppercase;
-    top: 50%;
+    top: 30%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     transition: 0.25s ease-in-out;
@@ -21658,11 +21658,11 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_header_side .header-soc .toggle_menu_side span::before {
-    top: -20px;
+    top: -32px;
 }
 
 .page_header_side .header-soc .toggle_menu_side span::after {
-    top: 18px;
+    top: 5px;
 }
 
 .page_header_side .header-soc .toggle_menu_side::after {
